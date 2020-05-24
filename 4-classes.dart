@@ -14,7 +14,7 @@ class Hero {
   String name;
   String power; 
 
-  Hero(String nombre, String poder); {
+  Hero(String nombre, String poder) {
     // this is the constructor
     this.name = nombre; 
     this.power = poder; 
