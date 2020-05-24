@@ -24,3 +24,20 @@ class Hero {
     return '${ this.name } - ${ this.power }';
   }
 } 
+
+// another way to define classes
+
+class Villain {
+  String name;
+  String power; 
+
+  Villain({this.name, this.power}); 
+
+  String toString() => '$name $power';
+} 
+
+
+
+
+
+
